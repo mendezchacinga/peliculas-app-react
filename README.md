@@ -1,4 +1,4 @@
-# IP_GeoMap
+# IP
   Actividad 4.1 Front End I
 
 # Integrante:
