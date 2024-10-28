@@ -17,7 +17,7 @@
 - Función que proporciona tu dirección de ip cuando cargas la pagina por primera vez
 - Evento click en la lupa o Enter en el buscador
 - Creación de div con label dinámico
-- Datos que redirigen a las cuentas de usuario de los integrantes (Footer)
+- Datos que redirigen a las cuentas de usuario del integrante (Footer)
 - Loaders de carga tanto para cargar el HTML como en el buscador adaptable al modo oscuro
 - Responsive
 - Mapa
