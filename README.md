@@ -1,37 +1,79 @@
-# IP
-  Actividad 4.1 Front End I
+# Buscador de Películas
 
-# Integrante:
+## Descripción
+Este proyecto es un buscador de películas interactivo desarrollado con React. Permite a los usuarios buscar películas, ver detalles sobre ellas y disfrutar de una interfaz responsive con modo oscuro/claro.
 
-  - Gustavo Mendez
+## Desarrollador
+- **Nombre:** Gustavo Mendez
+- **Cédula:** 30860474
+- **Profesor:** Yerson González
+- **Materia:** Actividad 4.2 Front End I
 
-# Profesor
+## Características
+- Búsqueda de películas en tiempo real
+- Visualización de películas populares
+- Página de detalles para cada película
+- Modo oscuro/claro
+- Diseño responsive
+- Integración con la API de The Movie Database (TMDb)
 
-  Yerson González
+## Tecnologías Utilizadas
+- React
+- React Router
+- CSS Modules
+- Vite
 
-# Funcionalidades
+## Configuración del Proyecto
 
-- Modo Claro y Oscuro
-- SweetAlert Claro y oscuro (Depende del Modo elegido)
-- Buscador por IPV4, IPV6 o Dominio
-- Función que proporciona tu dirección de ip cuando cargas la pagina por primera vez
-- Evento click en la lupa o Enter en el buscador
-- Creación de div con label dinámico
-- Datos que redirigen a las cuentas de usuario del integrante (Footer)
-- Loaders de carga tanto para cargar el HTML como en el buscador adaptable al modo oscuro
-- Responsive
-- Mapa
 
-# Instrucciones
+### Instalación
+1. Clona el repositorio:
+   ```
+   git clone [https://github.com/mendezchacinga/peliculas-app-react.git]
+   ```
+2. Navega al directorio del proyecto:
+   ```
+   cd buscador-de-peliculas
+   ```
+3. Instala las dependencias:
+   ```
+   npm install
+   ```
 
-1. Descargar el repositorio
-2. Extraer la carpeta
-3. Abrir Visual Studio Code
-4. Agregar tu apikey en la constante apikey del archivo con ruta js/geoipify.js | linea 1
-    
-    Ejemplo: const apikey = "at_XxXxXxXxXxXxXxXxXxXxXxX";
+### Ejecución
+Para iniciar el servidor de desarrollo:
+```
+npm run dev
+```
+Luego, abre tu navegador y visita `http://localhost:5173`.
 
-    NOTA: De no poseer un ApiKey regístrate en https://geo.ipify.org/
+## Estructura del Proyecto
+```
+src/
+├── assets/
+├── componentes/
+│   ├── Posters.jsx
+│   └── Posters.module.css
+├── paginas/
+│   ├── Detalles.jsx
+│   ├── Detalles.module.css
+│   ├── Home.jsx
+│   └── Home.module.css
+├── App.jsx
+├── App.module.css
+├── configApi.js
+├── index.css
+└── main.jsx
+```
 
-5. Abrir el HTML con Live Server
-6. Disfrutar la página
+## Uso
+- La página principal muestra una lista de películas populares.
+- Usa la barra de búsqueda para encontrar películas específicas.
+- Haz clic en una película para ver más detalles.
+- Utiliza el botón de cambio de tema para alternar entre modo claro y oscuro.
+
+## API
+Este proyecto utiliza la API de The Movie Database (TMDb).
+
+
+Desarrollado con ❤️ por Gustavo Mendez
