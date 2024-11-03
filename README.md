@@ -33,7 +33,7 @@ Este proyecto es un buscador de películas interactivo desarrollado con React. P
    ```
 2. Navega al directorio del proyecto:
    ```
-   cd buscador-de-peliculas
+   cd peliculas-app-react
    ```
 3. Instala las dependencias:
    ```
