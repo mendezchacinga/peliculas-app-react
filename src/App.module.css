@@ -1,0 +1,48 @@
+.mainStyle {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.claro {
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.oscuro {
+    background-color: #1a1919;
+    color: #f0f2f5;
+}
+
+.temaToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.claro .temaToggle {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.oscuro .temaToggle {
+    background-color: #333;
+    box-shadow: 0 2px 5px rgba(255,255,255,0.1);
+}
+
+@media (max-width: 768px) {
+    .temaToggle {
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+    }
+}
